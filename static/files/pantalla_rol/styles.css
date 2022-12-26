@@ -1,0 +1,236 @@
+﻿body {
+  margin:0px;
+  background-color:rgba(34, 38, 43, 1);
+  background-image:none;
+  position:static;
+  left:auto;
+  width:390px;
+  margin-left:0;
+  margin-right:0;
+  text-align:center;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:250px;
+  height:46px;
+  background:inherit;
+  background-color:rgba(234, 208, 23, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:5px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:"Open Sans", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:20px;
+}
+#u0 {
+  border-width:0px;
+  position:absolute;
+  left:70px;
+  top:344px;
+  width:250px;
+  height:46px;
+  display:flex;
+  font-family:"Open Sans", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:20px;
+}
+#u0 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u0_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u1_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:250px;
+  height:72px;
+}
+#u1 {
+  border-width:0px;
+  position:absolute;
+  left:70px;
+  top:50px;
+  width:250px;
+  height:72px;
+  display:flex;
+}
+#u1 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u1_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u2_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:99px;
+  height:18px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:"Open Sans", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#AAAAAA;
+}
+#u2 {
+  border-width:0px;
+  position:absolute;
+  left:146px;
+  top:253px;
+  width:99px;
+  height:18px;
+  display:flex;
+  font-family:"Open Sans", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#AAAAAA;
+}
+#u2 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u2_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u3_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:250px;
+  height:46px;
+  background:inherit;
+  background-color:rgba(234, 208, 23, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:5px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:"Open Sans", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:20px;
+}
+#u3 {
+  border-width:0px;
+  position:absolute;
+  left:70px;
+  top:450px;
+  width:250px;
+  height:46px;
+  display:flex;
+  font-family:"Open Sans", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:20px;
+}
+#u3 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u3_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u4_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:250px;
+  height:46px;
+  background:inherit;
+  background-color:rgba(234, 208, 23, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:5px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:"Open Sans", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:20px;
+}
+#u4 {
+  border-width:0px;
+  position:absolute;
+  left:70px;
+  top:556px;
+  width:250px;
+  height:46px;
+  display:flex;
+  font-family:"Open Sans", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:20px;
+}
+#u4 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u4_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}

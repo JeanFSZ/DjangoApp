@@ -1,0 +1,77 @@
+body {
+    margin: 50;
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Open Sans';
+    background-color: #22262B;
+  }
+
+  .botoninicio {
+    color: #AAAAAA;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    text-align: center;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:5px;
+    margin-top: 100px;
+    margin-left: 0px;
+    position: fixed;
+    background-color: #ead017; 
+    color: #333333;
+    width:250px;
+    height:46px;
+    position: relative; 
+
+  }
+
+  .camposlogin {
+    color: #AAAAAA;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 300px;
+    position: fixed; 
+  }
+
+  .imglog{
+    color: #AAAAAA;
+    margin-top: 42px;
+    margin-left: 62px;
+    border-width:0px;
+    width:250px;
+    height:72px;
+    position: fixed;
+  }
+
+
+  .campossign {
+    color: #AAAAAA;
+    font-size: 15px;
+    text-align: left;
+    height:72px;
+    margin-left: 60px;
+    margin-top: 200px;
+    width:250px;
+    position: fixed; 
+  }
+
+  .botonreg {
+    color: #AAAAAA;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    text-align: center;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:5px;
+    margin-top: 50px;
+    margin-left: 0px;
+    position: fixed;
+    background-color: #ead017; 
+    color: #333333;
+    width:250px;
+    height:46px;
+    position: relative; 
+
+  }
