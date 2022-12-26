@@ -1,11 +1,14 @@
 body{
     background-color: #22262B;
+    color: white;
 }
 .btn-login{
     background-color: #ead017;
     color: black;
 }
-
+.nav-vac{
+    color: white !important
+}
 @media (max-width: 575.98px) {  }
 
 
