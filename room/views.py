@@ -7,3 +7,6 @@ from .models import User, Room
 def home(request):
     room = Room.objects.get(user_reservation = request.user.id)
     return render(request, 'room/home.html', {'room': room})
+
+def register(request):
+    return render(request, 'registration/signup.html')

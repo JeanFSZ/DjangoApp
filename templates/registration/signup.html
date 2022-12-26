@@ -1,0 +1,103 @@
+{# Load the tag library #}
+{% load bootstrap5 %} 
+{# Load CSS and JavaScript #}
+{% bootstrap_css %} {% bootstrap_javascript %}
+{# Display django.contrib.messages as Bootstrap alerts #} 
+{% bootstrap_messages %} 
+{% load static %}
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Test</title>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{% static 'CSS/main2.css' %}"
+  />
+</head>>
+
+<body>
+    <section class="h-100 h-custom">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-8 col-xl-6">
+              <div class=" rounded-3" style="background-color: #22262B;">
+                <img src="{% static 'images/pantalla_rol/u1.png' %}"
+                  class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+                  alt="Sample photo">
+                <div class="card-body p-4 p-md-5">
+                  <h1 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Registrarse</h1>
+      
+                  <form class="px-md-2">
+
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form3Example1q">Nombre</label>
+                                <input type="text" id="form3Example1q" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form3Example1q">Apellidos</label>
+                                <input type="text" id="form3Example1q" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+      
+
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form3Example1q">Correo electrónico</label>
+                        <input class="form-control" type="email" id="email" size="30" required>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form3Example1q">Usuario</label>
+                        <input type="text" id="form3Example1q" class="form-control" />
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form3Example1q">Contraseña</label>
+                                <input class="form-control" type="password" id="pass" name="password" minlength="8" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form3Example1q">Repita la contraseña</label>
+                                <input class="form-control" type="password" id="pass" name="password" minlength="8" required>
+                            </div>
+                        </div>
+                    </div>
+
+
+      
+                    <div class="row">
+                      <div class="col-md-6 mb-4 mx-auto text-center">
+                        <label class="form-label select-label">Escoja una opción</label>
+                        <select class="select form-control">
+                            <option value="1" disabled>Choose option</option>
+                            <option value="2">Jefe</option>
+                            <option value="3">Alumno</option>
+                            <option value="4">Subject 3</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="mx-auto text-center">
+                        <button type="submit" class="btn btn-primary btn-login">
+                          Registrarse
+                        </button>
+                    </div>
+      
+                  </form>
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

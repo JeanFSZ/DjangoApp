@@ -1,12 +1,12 @@
 ﻿{# Load the tag library #}
- {% load bootstrap5 %} 
- {# Load CSS and JavaScript #}
+{% load bootstrap5 %} 
+{# Load CSS and JavaScript #}
 {% bootstrap_css %} {% bootstrap_javascript %}
 {# Display django.contrib.messages as Bootstrap alerts #} 
 {% bootstrap_messages %} 
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <title>Test</title>
@@ -46,7 +46,8 @@
           </div>
           <div class="mx-auto pt-5">
             <!-- Simple link -->
-            <a href="#!">¿No tiene una cuenta? Registrese</a>
+            <a href="{% url 'register' %}">¿No tiene una cuenta? Registrese</a>
+
     
           </div>
         </div>
