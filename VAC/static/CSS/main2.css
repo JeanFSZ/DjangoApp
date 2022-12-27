@@ -1,0 +1,24 @@
+body{
+    background-color: #22262B;
+    color: white;
+}
+.btn-login{
+    background-color: #ead017;
+    color: black;
+}
+.nav-vac{
+    color: white !important
+}
+@media (max-width: 575.98px) {  }
+
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+
+@media (max-width: 1199.98px) {  }
+
+
+@media (max-width: 1399.98px) {  }
+

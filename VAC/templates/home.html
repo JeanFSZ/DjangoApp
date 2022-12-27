@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+<!-- templates/registration/login.html -->
+{% block title %}Home page{% endblock %}
+
+{% block content %}
+    <h1>Home page</h1>
+    <h2>Hola {{ user.username}}</h2>
+    <table>
+    {% for reserva in reservas %}
+        <tr>
+        <td>
+            <p>
+                Placeholder para una imagen ?
+            </p>
+        </td>
+        <tr>
+        <td>
+            <h4>
+                {{ reserva.sala.nombre}}
+            </h4>
+        </td>
+        <td>
+            <p>
+                {{ reserva.descripcion }}
+            </p>
+        </td>
+        </tr>
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock %}

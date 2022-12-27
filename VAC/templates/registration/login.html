@@ -1,0 +1,56 @@
+﻿{# Load the tag library #}
+ {% load bootstrap5 %} 
+ {# Load CSS and JavaScript #}
+{% bootstrap_css %} {% bootstrap_javascript %}
+{# Display django.contrib.messages as Bootstrap alerts #} 
+{% bootstrap_messages %} 
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Test</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'CSS/main2.css' %}"
+    />
+  </head>
+
+  <body class="container">
+    <div class="w-50 mx-auto">
+      <img
+        src="{% static 'images/pantalla_rol/u1.png' %}"
+        class="img-fluid"
+        alt=""
+      />
+      <h1>Iniciar sesion</h1>
+
+      <form method="post" class="form">
+        {% csrf_token %} 
+        {% bootstrap_form form %}
+        <div class="mx-auto text-center">
+          <button type="submit" class="btn btn-primary btn-login">
+            Iniciar sesión
+          </button>
+        </div>
+
+        <!-- 2 column grid layout for inline styling -->
+        <div class="row mb-4">
+          <div class="col d-flex justify-content-center">
+            <!-- Checkbox -->
+            
+          <div class="mx-auto pt-5">
+            <!-- Simple link -->
+            <a href="#!">¿Ha olvidado la contraseña?</a>
+          </div>
+          <div class="mx-auto pt-5">
+            <!-- Simple link -->
+            <a href="{% url 'register' %}">¿No tiene una cuenta? Registrese</a>
+    
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

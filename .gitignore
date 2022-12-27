@@ -1,0 +1,7 @@
+*.pyc
+local_settings.py
+*.sqlite3
+*.cache
+*.idea
+*.iml
+*.vscode

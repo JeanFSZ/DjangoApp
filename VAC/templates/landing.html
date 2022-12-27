@@ -1,0 +1,42 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}VAC{% endblock title %}
+
+{% block css %}
+<link href="{% static 'files/pantalla_rol/styles.css' %}" type="text/css" rel="stylesheet"/>
+{% endblock css %}
+
+{% block content %}
+  <!-- Unnamed (Rectangle) -->
+  <a id="u0" class="ax_default button" href="{% url 'login' %}">
+    <div id="u0_div" class=""></div>
+    <div id="u0_text" class="text">
+      <p><span>Log in</span></p>
+    </div>
+  </a>
+
+  <!-- Unnamed (Image) -->
+  <div id="u1" class="ax_default image">
+    <img id="u1_img" class="img " src="{% static 'images/pantalla_rol/u1.png' %}"/>
+    <div id="u1_text" class="text " style="display:none; visibility: hidden">
+      <p></p>
+    </div>
+  </div>
+
+  <!-- Unnamed (Rectangle) -->
+  <div id="u2" class="ax_default label1">
+    <div id="u2_div" class=""></div>
+    <div id="u2_text" class="text ">
+      <p><span>¿Qué quieres hacer?</span></p>
+    </div>
+  </div>
+
+  <!-- Unnamed (Rectangle) -->
+  <a id="u3" class="ax_default button" href="{% url 'signup'%}">
+    <div id="u3_div" class=""></div>
+    <div id="u3_text" class="text ">
+      <p><span>Registrarse</span></p>
+    </div>
+  </a>
+{% endblock content %}
