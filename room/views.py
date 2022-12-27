@@ -15,7 +15,10 @@ def home(request):
         return render(request, 'room/home.html')
  
 def booking(request):
-    return render(request, 'room/booking.html',{'rooms': Room.objects.all})     
+    return render(request, 'room/booking.html',{'rooms': Room.objects.all})    
+
+def register(request):
+    return render(request, 'registration/signup.html') 
 
 ##
 ## class RoomListView (TemplateView):
